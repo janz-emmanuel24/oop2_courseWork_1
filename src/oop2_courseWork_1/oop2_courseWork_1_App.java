@@ -7,8 +7,6 @@ public class oop2_courseWork_1_App {
 		details.printName();
 		details.marks();
 		details.PrintingOut();
-		details.printIterator();
-
 	}
 
 }

@@ -22,7 +22,6 @@ public class oop2_courseWork_1_Obj {
 		firstName = courseStr.next();
 		System.out.print("LastName: ");
 		lastName = courseStr.next();
-		//System.out.println("Your full Names are: " + firstName + " " + lastName);
 	}
 	void marks() {
 		for (int i = 0; i <= 5; i++) {
