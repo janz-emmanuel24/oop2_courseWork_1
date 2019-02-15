@@ -86,8 +86,6 @@ public class oop2_courseWork_1_Obj {
 		String numberAsString = df.format(gpa);
 		System.out.println("\nStudent Name: " + firstName + " " + lastName);
 		System.out.println(gpArr);
-		//System.out.println(grade[0]);
-		//System.out.println("Marks Obtained:\n" + "(Research Methods:) " + rmethods + "Grade: "   + "(Java 2:) " + oop + " " + "(E-commerce:) " + eCom + " " + "(System Administration:) " + sysAdm + " " + "(Web Design:) " + webDe );
 		
 		System.out.println("Student Course: "  + " *** " + "Student Marks: " + " *** " + "Student Grades: " + "***" + " Student GP:");
 		for (int j = 0; j <= 5; j++) {
@@ -96,15 +94,5 @@ public class oop2_courseWork_1_Obj {
 		System.out.println("Total GP: " + gp);
 		System.out.println("Total GPA: " + numberAsString);
 	}
-	void printIterator() {
-		for (int j=0; j < list.size(); j++) {
-			String output = list.get(j);
-			System.out.println(output);
-		}
-	}
-	void printGrade() {
-		for (int k = 0; k < grade.length; k++) {
-			System.out.println(grade[k]);
-		}
-	}
+	
 }
