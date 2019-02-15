@@ -86,9 +86,9 @@ public class oop2_courseWork_1_Obj {
 		System.out.println("\nStudent Name: " + firstName + " " + lastName);
 		System.out.println(gpArr);
 		
-		System.out.println("Student Course: "  + " *** " + "Student Marks: " + " *** " + "Student Grades: " + "***" + " Student GP:");
+		System.out.println("Student Course: "  + " ***** " + "Student Marks: " + " ****** " + "Student Grades: " + " ***** " + " Student GP:");
 		for (int j = 0; j <= 5; j++) {
-			System.out.println(stuCourses.get(j) + "                   " + stuMarks.get(j) + "                   " + list.get(j) + "                   " + gpArr.get(j));
+			System.out.println(stuCourses.get(j) + "                             " + stuMarks.get(j) + "                       " + list.get(j) + "                    " + gpArr.get(j));
 		}
 		System.out.println("Total GP: " + gp);
 		System.out.println("Total GPA: " + numberAsString);
