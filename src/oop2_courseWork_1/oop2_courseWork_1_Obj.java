@@ -3,14 +3,14 @@ package oop2_courseWork_1;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+//Created An oop2_courseWork_1_Obj class without the main method
 public class oop2_courseWork_1_Obj {
-	Scanner courseStr = new Scanner(System.in);
-	Scanner enteredDetails = new Scanner(System.in);
-	String firstName,lastName;
+	Scanner enteredDetails = new Scanner(System.in); //main Scanner object to be called
+	String firstName,lastName;//strings for first and last Names
 	String stuCourse = null;
-	java.util.ArrayList<String> stuCourses = new java.util.ArrayList<String>();
+	java.util.ArrayList<String> stuCourses = new java.util.ArrayList<String>();//to hold student courses
 	int stuMark = 0;
-	java.util.ArrayList<Integer> stuMarks = new java.util.ArrayList<Integer>();
+	java.util.ArrayList<Integer> stuMarks = new java.util.ArrayList<Integer>(); //to hold students entered marks
 	java.util.ArrayList<String> gpArr = new java.util.ArrayList<String>();
 	ArrayList<String> list = new ArrayList<String>();
 	String[] grade;
@@ -19,9 +19,9 @@ public class oop2_courseWork_1_Obj {
 	void printName() {
 		System.out.println("Enter Student Details: ");
 		System.out.print("FirstName: ");
-		firstName = courseStr.next();
+		firstName = enteredDetails.next();
 		System.out.print("LastName: ");
-		lastName = courseStr.next();
+		lastName = enteredDetails.next();
 	}
 	void marks() {
 		for (int i = 0; i <= 5; i++) {
