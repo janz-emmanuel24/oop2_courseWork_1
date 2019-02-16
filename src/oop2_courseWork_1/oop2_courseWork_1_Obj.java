@@ -91,7 +91,6 @@ public class oop2_courseWork_1_Obj {
 		double gpa = gp / 5;
 		String numberAsString = df.format(gpa);
 		System.out.println("\nStudent Name: " + firstName + " " + lastName);
-		System.out.println(gpArr);
 		
 		System.out.println("Student Course: "  + " ***** " + "Student Marks: " + " ****** " + "Student Grades: " + " ***** " + " Student GP:");
 		for (int j = 0; j <= 5; j++) {
